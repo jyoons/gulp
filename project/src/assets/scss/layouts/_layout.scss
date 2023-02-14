@@ -1,0 +1,152 @@
+
+
+@charset "UTF-8";
+
+// ---------------------------------------------------------------
+// Layouts > Layout
+// ---------------------------------------------------------------
+.page-head {
+    @include hidden;
+}
+
+.page-body {
+    width: 100%;
+    padding: 48px 0 56px;
+
+    .local-head {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 48px;
+        background-color: #fff;
+
+        .local-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+            .local-name {
+                width: calc(100% - 144px);
+            }
+        }
+
+        .local-control {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+            height: 48px;
+
+            .control-item {
+                display: flex;
+
+                .control-name {
+                    width: 48px;
+                    height: 48px;
+
+                    &.alram {
+                        position: relative;
+
+                        .alram-count {
+                            position: absolute;
+                            top: 12px;
+                            right: 8px;
+                            width: 12px;
+                            min-width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            background-color: #ea7869;
+                            font-size: 10px;
+                            font-weight: 700;
+                            text-align: center;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page-foot {
+    overflow: hidden;
+
+    .footer-navigation {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 56px;
+        overflow: hidden;
+        background-color: #fff;
+
+        .navigation-name {
+            @include hidden;
+        }
+
+        .navi-list {
+            display: flex;
+            list-style: none;
+
+            .navi-item {
+                width: 20%;
+                height: 56px;
+
+                .navi-name {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    color: #222;
+                    font-size: 10px;
+                    line-height: 1;
+
+                    &::before {
+                        content: '';
+                        width: 24px;
+                        height: 24px;
+                        margin-bottom: 2px;
+                    }
+                }
+
+                &.my .navi-name::before      { background-image: url('../images/common/icon_my_off.svg'); }
+                &.benefit .navi-name::before { background-image: url('../images/common/icon_benefit_off.svg'); }
+                &.appcard .navi-name::before { background-image: url('../images/common/icon_appcard_off.svg'); }
+                &.finance .navi-name::before { background-image: url('../images/common/icon_finance_off.svg'); }
+                &.life .navi-name::before    { background-image: url('../images/common/icon_life_off.svg'); }            
+                &.my.active .navi-name::before      { background-image: url('../images/common/icon_my_on.svg'); }
+                &.benefit.active .navi-name::before { background-image: url('../images/common/icon_benefit_on.svg'); }
+                &.appcard.active .navi-name::before { background-image: url('../images/common/icon_appcard_on.svg'); }
+                &.finance.active .navi-name::before { background-image: url('../images/common/icon_finance_on.svg'); }
+                &.life.active .navi-name::before    { background-image: url('../images/common/icon_life_on.svg'); }
+            }
+        }
+    }
+}
+
+.info-lamp {
+	display: inline-block;
+	vertical-align: top;
+	width: 8px;
+	min-width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #ea7869;
+	
+	.info-body {
+		@include hidden;
+	}
+}

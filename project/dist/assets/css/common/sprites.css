@@ -1,0 +1,354 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-icon_activity {
+  background-image: url(sprites.png);
+  background-position: -210px 0px;
+  width: 66px;
+  height: 76px;
+}
+.icon-icon_authority {
+  background-image: url(sprites.png);
+  background-position: -76px 0px;
+  width: 66px;
+  height: 264px;
+}
+.icon-icon_bank002 {
+  background-image: url(sprites.png);
+  background-position: -210px -86px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank003 {
+  background-image: url(sprites.png);
+  background-position: -210px -144px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank004 {
+  background-image: url(sprites.png);
+  background-position: -210px -202px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank007 {
+  background-image: url(sprites.png);
+  background-position: -210px -260px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank008 {
+  background-image: url(sprites.png);
+  background-position: -76px -274px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank011 {
+  background-image: url(sprites.png);
+  background-position: -286px 0px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank012 {
+  background-image: url(sprites.png);
+  background-position: -286px -58px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank020 {
+  background-image: url(sprites.png);
+  background-position: -286px -116px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank023 {
+  background-image: url(sprites.png);
+  background-position: -286px -174px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank027 {
+  background-image: url(sprites.png);
+  background-position: -286px -232px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank031 {
+  background-image: url(sprites.png);
+  background-position: -344px 0px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank032 {
+  background-image: url(sprites.png);
+  background-position: -344px -58px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank034 {
+  background-image: url(sprites.png);
+  background-position: -344px -116px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank035 {
+  background-image: url(sprites.png);
+  background-position: -344px -174px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank037 {
+  background-image: url(sprites.png);
+  background-position: -344px -232px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank039 {
+  background-image: url(sprites.png);
+  background-position: 0px -340px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank045 {
+  background-image: url(sprites.png);
+  background-position: -58px -340px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank048 {
+  background-image: url(sprites.png);
+  background-position: -116px -340px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank050 {
+  background-image: url(sprites.png);
+  background-position: -174px -340px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank054 {
+  background-image: url(sprites.png);
+  background-position: -232px -340px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank055 {
+  background-image: url(sprites.png);
+  background-position: -290px -340px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank057 {
+  background-image: url(sprites.png);
+  background-position: -402px 0px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank060 {
+  background-image: url(sprites.png);
+  background-position: -402px -58px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank064 {
+  background-image: url(sprites.png);
+  background-position: -402px -116px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank071 {
+  background-image: url(sprites.png);
+  background-position: -402px -174px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank081 {
+  background-image: url(sprites.png);
+  background-position: -402px -232px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank088 {
+  background-image: url(sprites.png);
+  background-position: -402px -290px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank089 {
+  background-image: url(sprites.png);
+  background-position: 0px -398px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank090 {
+  background-image: url(sprites.png);
+  background-position: -58px -398px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank209 {
+  background-image: url(sprites.png);
+  background-position: -116px -398px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank218 {
+  background-image: url(sprites.png);
+  background-position: -174px -398px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank238 {
+  background-image: url(sprites.png);
+  background-position: -232px -398px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank240 {
+  background-image: url(sprites.png);
+  background-position: -290px -398px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank243 {
+  background-image: url(sprites.png);
+  background-position: -348px -398px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank247 {
+  background-image: url(sprites.png);
+  background-position: -460px 0px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank261 {
+  background-image: url(sprites.png);
+  background-position: -460px -58px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank262 {
+  background-image: url(sprites.png);
+  background-position: -460px -116px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank263 {
+  background-image: url(sprites.png);
+  background-position: -460px -174px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank264 {
+  background-image: url(sprites.png);
+  background-position: -460px -232px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank265 {
+  background-image: url(sprites.png);
+  background-position: -460px -290px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank266 {
+  background-image: url(sprites.png);
+  background-position: -460px -348px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank267 {
+  background-image: url(sprites.png);
+  background-position: 0px -456px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank268 {
+  background-image: url(sprites.png);
+  background-position: -58px -456px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank269 {
+  background-image: url(sprites.png);
+  background-position: -116px -456px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank270 {
+  background-image: url(sprites.png);
+  background-position: -174px -456px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank278 {
+  background-image: url(sprites.png);
+  background-position: -232px -456px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank279 {
+  background-image: url(sprites.png);
+  background-position: -290px -456px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank280 {
+  background-image: url(sprites.png);
+  background-position: -348px -456px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank287 {
+  background-image: url(sprites.png);
+  background-position: -406px -456px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank290 {
+  background-image: url(sprites.png);
+  background-position: -518px 0px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank291 {
+  background-image: url(sprites.png);
+  background-position: -518px -58px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_bank292 {
+  background-image: url(sprites.png);
+  background-position: -518px -116px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_benefit {
+  background-image: url(sprites.png);
+  background-position: 0px 0px;
+  width: 66px;
+  height: 330px;
+}
+.icon-icon_benefit_mbs {
+  background-image: url(sprites.png);
+  background-position: -152px 0px;
+  width: 48px;
+  height: 288px;
+}

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+// ---------------------------------------------------------------
+// Components > 
+// ---------------------------------------------------------------
+
+// Custom Input
+input.custom-input {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    font-family: $font-family;
+    font-weight: $font-light;
+    font-size: 15px;
+    color: $text-gray;
+    border: 1px solid $border-light;
+    border-radius: 2px;
+    padding: 0 15px;
+    margin: 4px 8px 4px 0;
+
+    // [type="text"],
+    // [type="password"],
+    // [type="email"],
+    // [type="tel"],
+    // [type="number"] {}
+
+    &:read-only,
+    &.read-only {
+        background-color: $bg-light;
+    }
+
+    &:disabled,
+    &.disabled {
+        color: $text-dark;
+        background-color: $bg-light;
+    }
+
+    &:required,
+    &.error {
+        border-color: $border-primary;
+    }
+
+    &:active,
+    &:focus {
+        border-color: $black;
+        outline: 0;
+        @include transition-hover;
+    }
+
+    &::placeholder {
+        color: $text-dark;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &.date {
+        width: 140px;
+        background: #fff url(../imgs/icons/input_arrow_right.png);
+        background-repeat: no-repeat;
+        background-position-x: calc(100% - 5px) center;
+    }
+
+    &.no-border {
+        border: 0;
+        margin: 0;
+        padding: 0 15px 0 0;
+    }
+
+    &.datepicker {
+        background-image: url('../imgs/icons/icon-calendar.png');
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        padding-right: 38px;
+    }
+}
+
+
+// Custom Textarea
+textarea.custom-textarea {
+    width: 100%;
+    min-height: 150px;
+    line-height: 22px;
+    font-family: $font-family;
+    font-weight: $font-light;
+    font-size: 15px;
+    border: 1px solid $border-light;
+    border-radius: 2px;
+    padding: 20px;
+    resize: none;
+
+    &:read-only,
+    &.read-only {
+        background-color: $bg-light;
+    }
+
+    &:disabled,
+    &.disabled {
+        color: $text-dark;
+        background-color: $bg-light;
+    }
+
+    &:focus {
+        border-color: $black;
+        outline: 0;
+        @include transition-hover;
+    }
+
+    &::placeholder {
+        color: $text-dark;
+    }
+
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,24 @@
+        <footer class="footerWrap">
+            <button class="btnTop"><span>페이지 최상단 가기</span></button>
+            <div>
+                <ul class="addressWrap">
+                    <li>서울시 영등포구 의사당대로 83<br class="moView"> 오투타워 4층 105호</li>
+                    <li><a href="tel:02-587-2661">02-587-2661</a></li>
+                    <li><a href="mailto:korfin@korfin.kr">korfin@korfin.kr</a></li>
+                    <li class="copyright">Copyright © 2016. (사)한국핀테크산업협회.<br class="moView">  All Right Reserved.</li>
+                </ul>
+				<div class="partnerSite">
+                    <button>협력 기관 소개</button>
+					<ul>
+						@@loop('./pages/include/partner.html', [
+							{'name': '<span>금융위원회</span>', 'link' : 'https://www.fsc.go.kr/index', 'target': '_blank'},
+							{'name': '<span>금융감독원</span>', 'link' : 'https://www.fss.or.kr/fss/kr/main.html', 'target': '_blank'},
+							{'name': '<span>한국핀테크지원센터</span>', 'link' : 'https://fintech.or.kr/web/user/main.do', 'target': '_blank'},
+							{'name': '<span>한국인터넷진흥원</span>', 'link' : 'https://www.kisa.or.kr/main.jsp', 'target': '_blank'},
+							{'name': '<span>코스콤</span>', 'link' : 'https://www.koscom.co.kr/', 'target': '_blank'},
+							{'name': '<span>마이데이터지원센터</span>', 'link' : 'https://www.mydatacenter.or.kr:3441/main.do', 'target': '_blank'}
+						])
+					</ul>
+				</div>
+            </div>
+        </footer>

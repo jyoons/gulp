@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+// ---------------------------------------------------------------
+// Components > Buttons
+// ---------------------------------------------------------------
+
+.btn {
+    position: relative;
+    min-width: 11rem;
+    height: 4rem;
+    border: 0.1rem solid $btn-white-hover;
+    border-radius: 0.2rem;
+    background-color: $btn-white;
+    color: $text-gray;
+    font-weight: $font-regular;
+    font-size: 1.4rem;
+    text-align: center;
+    // text-shadow: rgba(0, 0, 0, 0.01) 0 0 0.1rem;
+    padding: 0 1.8rem;
+    margin: 0.4rem 0.8rem 0.4rem 0;    
+
+    // Button Color - transparent
+    &.btn-transparent {
+        border: 0;
+        background-color: transparent;
+        color: $text-dark;
+    }
+
+    // Button Color - Primary
+    &.btn-primary {
+        border-color: $btn-primary;
+        background-color: $btn-primary;
+        color: $btn-primary-text;
+    }
+
+    // Button Color - Secondary
+    &.btn-secondary {
+        border-color: $btn-secondary;
+        background-color: $btn-secondary;
+        color: $btn-secondary-text;
+    }
+
+    // Button Color - border
+    &.btn-bordered {
+        border-color: $border-gray;
+        background-color: $btn-white;
+        color: $black;
+    }
+
+    // Button - Disabled
+    &.disabled,
+    &:disabled,
+    &.btn-bordered.disabled,
+    &.btn-bordered:disabled {
+        border-color: $btn-disabled-light;
+        background-color: $btn-disabled-light;
+        color: $text-gray;
+        cursor: not-allowed;
+    }
+
+    &.btn-primary.disabled,
+    &.btn-primary:disabled,
+    &.btn-secondary.disabled,
+    &.btn-secondary:disabled {
+        border-color: $btn-disabled-dark;
+        background-color: $btn-disabled-dark;
+        color: $text-gray;
+        cursor: not-allowed;
+    }
+
+    // Button Size - large
+    &.btn-lg {
+        font-size: 16px;
+        min-width: 160px;
+        min-height: 48px;
+        line-height: 46px;
+        padding: 0 20px;
+        margin-right: 13px;
+    }
+
+    // Button Size - small
+    &.btn-sm {
+        font-size: 13px;
+        min-width: inherit;
+        min-height: 32px;
+        line-height: 30px;
+        padding: 0 15px;
+        margin-right: 8px;
+    }
+}
+
+
+
+
+
+.btn-box {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 12px 14px 24px;
+
+    & .btn:only-child {
+        flex: 1;
+    }
+}
+

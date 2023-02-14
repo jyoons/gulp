@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('./pages/include/head.html')
+</head>
+
+<body>
+    <div id="wrap" class="main">
+		<!-- include문 내에 정의 되는 객체는 항상 ''작은 따온표로 묶어준다//정의한걸 호출 할때도 마찬가지 -->
+		@@include('./pages/include/header.html', {
+			pageMain : true,
+			arr : ['협회장', '설립목적 및 비전', '주요사업', '조직도', '임원사', '자문위원', '자문변호사', '오시는길']
+		})
+        <main>
+            <section class="mainKV">
+                <div class="inner">
+                    <div class="videoWrap">
+                        <div class="videoSlick">
+                            <ul>
+                                <li>
+                                    <div class="titWrap">
+                                        <h2>
+                                            Korea Fintech<br>
+                                            Industry<br class="moView" > Association                        
+                                        </h2>
+                                        <p>
+                                            대한민국 핀테크 업계를 대변하는<br class="movView"> 국내 최대의 핀테크 <br class="pcView">
+                                            네트워크 기관인<br class="moView"> 한국핀테크산업협회입니다.                        
+                                        </p>
+                                    </div>
+                                    <video muted autoplay loop preload="auto" id="mov01">
+                                   </video>
+                                </li>
+                                <li>
+                                    <div class="titWrap">
+                                        <h2>
+                                            Digital<br class="moView"> Finance                  
+                                        </h2>
+                                        <p>
+                                            금융의 변화와 혁신을 이끌어가는<br class="moView"> 디지털금융 혁신의 <br>
+                                            디딤돌이 되겠습니다.
+                                        </p>
+                                    </div>
+                                    <video muted autoplay loop preload="auto" id="mov01">
+                                    </video>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                    
+                </div>
+            </section><!--// section0 e-->
+            <section class="members">
+                <div class="titWrap">
+                    <h2>Our Members</h2>
+                    <p>
+                        320여개 회원사 모두 혁신적인 금융서비스로<br>
+                        금융시장과 소비자의 편익을 위해 <br class="moView">
+                        최선을 다하고 있습니다.
+                    </p>
+                </div>
+
+            </section><!--// section1 e-->
+            <section class="about">
+                <div class="titWrap">
+                    <h2>About KORFIN</h2>
+                    <p>
+                        핀테크 산업의 건전한 발전을 위한 디지털 금융<br class="moView"> 혁신에 이바지 라는<br class="pcView">
+                        목적과 비전 아래 정책대응,<br class="moView"> 연구조사, 분과운영, 발간사업, 외환전산망<br class="moView"> 중계시스템 운영 등에 힘쓰고 있습니다.                        
+                    </p>
+                </div>
+            </section>
+            <section class="mainNews">
+                <div class="middleBox">
+                    <div class="titWrap">
+                        <h2>News</h2>
+                        <p>
+                            한국핀테크산업협회의 <br>
+                            새로운 소식을 알려드립니다.                        
+                        </p>
+                        <a href="#">더보기</a>
+                    </div>
+                    <div class="slickBbs">
+                        <div class="listWrap">
+                            <ul class="eventList list">
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <strong>2020. 06. 24</strong>
+                                            <p>
+                                                [서울산업진흥원] 2020년도 핀테크
+                                                블록체인 기술산업화 지원사업    지원사업     지원사업                                        
+                                                [서울산업진흥원] 2020년도 핀테크
+                                                블록체인 기술산업화 지원사업    지원사업     지원사업                                        
+                                                [서울산업진흥원] 2020년도 핀테크
+                                                블록체인 기술산업화 지원사업    지원사업     지원사업                                        
+                                            </p>
+                                            <span>
+                                                지원규모 및 기간 : 과제당 최대 1억원/1년
+                                            </span>
+                                            <em class="mark">
+                                                진행중
+                                            </em>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <strong>2020. 06. 24</strong>
+                                            <p>
+                                                [서울산업진흥원] 2020년도 핀테크
+                                                블록체인 기술산업화 지원사업                                                
+                                            </p>
+                                            <span>
+                                                지원규모 및 기간 : 과제당 최대 1억원/1년
+                                            </span>
+                                            <em class="mark">
+                                                진행중
+                                            </em>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="noticeList list">
+                                <li>
+                                    <a href="#">
+                                        <strong>2020. 06. 24</strong>
+                                        <p>
+                                            [공지] 금융정보분석원, FATF 성명서(2020.2월)에 따른…따른…따른…따른…
+                                            [공지] 금융정보분석원, FATF 성명서(2020.2월)에 따른…따른…따른…따른…
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>2020. 06. 24</strong>
+                                        <p>
+                                            [공지] 금융정보분석원, FATF 성명서(2020.2월)에 따른…따른…따른…따른…
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>2020. 06. 24</strong>
+                                        <p>
+                                            [공지] 금융정보분석원, FATF 성명서(2020.2월)에 따른…따른…따른…따른…
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                </li>
+
+                            </ul>
+                            <ul class="noticeList list">
+                                <li>
+                                    <a href="#">
+                                        <strong>2020. 06. 24</strong>
+                                        <p>
+                                            [보도자료]_한국핀테크산업협회, ‘크라우드펀딩 기반 스마트 제조 신방안’ 국회 토론회 개최[보도자료]_한국핀테크산업협회, ‘크라우드펀딩 기반 스마트 제조 신방안’ 국회 토론회 개최
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>2020. 06. 24</strong>
+                                        <p>
+                                            [보도자료]_한국핀테크산업협회, ‘크라우드펀딩 기반 스마트 제조 신방안’ 국회 토론회 개최[보도자료]_한국핀테크산업협회, ‘크라우드펀딩 기반 스마트 제조 신방안’ 국회 토론회 개최
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>2020. 06. 24</strong>
+                                        <p>
+                                            [보도자료]_한국핀테크산업협회, ‘크라우드펀딩 기반 스마트 제조 신방안’ 국회 토론회 개최[보도자료]_한국핀테크산업협회, ‘크라우드펀딩 기반 스마트 제조 신방안’ 국회 토론회 개최
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>2020. 06. 24</strong>
+                                        <p>
+                                            [보도자료]_한국핀테크산업협회, ‘크라우드펀딩 기반 스마트 제조 신방안’ 국회 토론회 개최[보도자료]_한국핀테크산업협회, ‘크라우드펀딩 기반 스마트 제조 신방안’ 국회 토론회 개최
+                                        </p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section><!--// section3 e-->
+            <ul class="indicator">
+                
+            </ul>
+            <div class="scrollAction">
+
+            </div>
+        </main>
+		@@include('./pages/include/footer.html')
+    </div><!--// wrap div e -->
+    <!-- 메인 팝업
+    <div class="mainPopup">
+        <button class="close">팝업 닫기</button>
+        <ul class="slickWrap">
+            <li>
+                <a href="#">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                </a>
+            </li>
+        </ul>
+    </div>
+     -->
+    <script type="text/javascript" src="/assets/js/lib/jquery.import.js"></script>
+</body>
+</html>
